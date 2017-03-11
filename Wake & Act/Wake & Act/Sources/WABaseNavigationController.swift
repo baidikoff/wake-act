@@ -7,7 +7,15 @@
 //
 
 import UIKit
+import ChameleonFramework
 
 class WABaseNavigationController: UINavigationController {
-
+	override var hidesNavigationBarHairline: Bool {
+		get {
+			return true
+		}
+		set {
+			self.hidesNavigationBarHairline = true
+		}
+	}
 }

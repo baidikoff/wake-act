@@ -1,0 +1,6 @@
+framework module Pods_Wake___Act {
+  umbrella header "Pods-Wake & Act-umbrella.h"
+
+  export *
+  module * { export * }
+}
