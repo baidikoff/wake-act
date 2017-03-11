@@ -17,6 +17,7 @@
 		A803B1121E7471B000F6B0D4 /* ChameleonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A803B1101E7471B000F6B0D4 /* ChameleonFramework.framework */; };
 		A803B1131E7471B000F6B0D4 /* SwiftyUserDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A803B1111E7471B000F6B0D4 /* SwiftyUserDefaults.framework */; };
 		A803B1161E7472BE00F6B0D4 /* WAInitializationNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803B1151E7472BE00F6B0D4 /* WAInitializationNavigationController.swift */; };
+		A803B11A1E7473FF00F6B0D4 /* WAManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803B1191E7473FF00F6B0D4 /* WAManagedObjectContext.swift */; };
 		C4C983F4A9ECE45DD03887F0 /* Pods_Wake___Act.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F2B75E4E8A124DE3B3A7CB4 /* Pods_Wake___Act.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		A803B1101E7471B000F6B0D4 /* ChameleonFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChameleonFramework.framework; path = "../../../Library/Developer/Xcode/DerivedData/Wake_&_Act-flfvxokqutqnfwboxyetzaxnuigs/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework"; sourceTree = "<group>"; };
 		A803B1111E7471B000F6B0D4 /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyUserDefaults.framework; path = "../../../Library/Developer/Xcode/DerivedData/Wake_&_Act-flfvxokqutqnfwboxyetzaxnuigs/Build/Products/Debug-iphonesimulator/SwiftyUserDefaults/SwiftyUserDefaults.framework"; sourceTree = "<group>"; };
 		A803B1151E7472BE00F6B0D4 /* WAInitializationNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAInitializationNavigationController.swift; sourceTree = "<group>"; };
+		A803B1191E7473FF00F6B0D4 /* WAManagedObjectContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAManagedObjectContext.swift; sourceTree = "<group>"; };
 		B51BC23A6C7AC08259211B5C /* Pods-Wake & Act.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wake & Act.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wake & Act/Pods-Wake & Act.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,9 +113,8 @@
 		A803B0F61E746E0200F6B0D4 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				A803B1171E74732800F6B0D4 /* Storyboard */,
 				A803B0F71E746E0200F6B0D4 /* Assets.xcassets */,
-				A803B0F81E746E0200F6B0D4 /* LaunchScreen.storyboard */,
-				A803B10E1E746F6600F6B0D4 /* Initialization.storyboard */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -121,6 +122,7 @@
 		A803B1031E746E0700F6B0D4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				A803B1181E74738E00F6B0D4 /* Core Data */,
 				A803B1141E74729800F6B0D4 /* Initialization */,
 				A803B1081E746ED100F6B0D4 /* Base */,
 			);
@@ -151,6 +153,23 @@
 				A803B1151E7472BE00F6B0D4 /* WAInitializationNavigationController.swift */,
 			);
 			name = Initialization;
+			sourceTree = "<group>";
+		};
+		A803B1171E74732800F6B0D4 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A803B0F81E746E0200F6B0D4 /* LaunchScreen.storyboard */,
+				A803B10E1E746F6600F6B0D4 /* Initialization.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		A803B1181E74738E00F6B0D4 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				A803B1191E7473FF00F6B0D4 /* WAManagedObjectContext.swift */,
+			);
+			name = "Core Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +298,7 @@
 			files = (
 				A803B1061E746E0700F6B0D4 /* WAAppController.swift in Sources */,
 				A803B1021E746E0200F6B0D4 /* Wake___Act.xcdatamodeld in Sources */,
+				A803B11A1E7473FF00F6B0D4 /* WAManagedObjectContext.swift in Sources */,
 				A803B10B1E746F0000F6B0D4 /* WABaseNavigationController.swift in Sources */,
 				A803B10D1E746F1200F6B0D4 /* WABaseViewController.swift in Sources */,
 				A803B1161E7472BE00F6B0D4 /* WAInitializationNavigationController.swift in Sources */,
