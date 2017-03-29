@@ -1,15 +1,12 @@
-//
-//  AppDelegate.swift
-//  Wake & Act
-//
-//  Created by Nick Baidikoff on 3/11/17.
-//  Copyright © 2017 Nick Baidikoff. All rights reserved.
-//
-
 import UIKit
+import Foundation
 
 @UIApplicationMain
 class WAAppController: UIResponder, UIApplicationDelegate {
 	var window: UIWindow?
+	
+	func applicationDidFinishLaunching(_ application: UIApplication) {
+		UINavigationBar.appearance().tintColor = .mainRed
+		
+	}
 }
-

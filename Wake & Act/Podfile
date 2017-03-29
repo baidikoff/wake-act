@@ -1,11 +1,35 @@
-# Uncomment the next line to define a global platform for your project
 platform :ios, '9.0'
+use_frameworks!
 
 target 'Wake & Act' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  use_frameworks!
 
   pod 'ChameleonFramework', :git => 'https://github.com/ViccAlexander/Chameleon.git'
   pod 'SwiftyUserDefaults'
+	
+	# UI
+	pod 'Macaw'
+	
+	# Reactive programming
+	pod 'RxSwift', '~> 3.0'
+	pod 'RxCocoa', '~> 3.0'
+	pod 'Moya/RxSwift'
+	pod 'NSObject+Rx'
+	
+	# Internet
+	pod 'SwiftyJSON'
+	pod 'Alamofire'
+	pod 'SDWebImage', '~> 3.7'
+	pod 'ReachabilitySwift'
+
+end
+
+target 'Wake & Act Tests' do
+
+	pod 'RxBlocking', '~> 3.0'
+	pod 'RxTest', '~> 3.0'
+	pod 'Quick'
+	pod 'Nimble'
+	pod 'Forgeries'
+	pod 'Nimble-Snapshots'
 
 end

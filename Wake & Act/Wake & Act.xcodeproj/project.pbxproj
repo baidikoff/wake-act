@@ -7,27 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		759808983147752936D46370 /* Pods_Wake___Act_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C225589A8343610B1152BC2B /* Pods_Wake___Act_Tests.framework */; };
 		A803B0FF1E746E0200F6B0D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A803B0F71E746E0200F6B0D4 /* Assets.xcassets */; };
-		A803B1001E746E0200F6B0D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A803B0F81E746E0200F6B0D4 /* LaunchScreen.storyboard */; };
 		A803B1021E746E0200F6B0D4 /* Wake___Act.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A803B0FC1E746E0200F6B0D4 /* Wake___Act.xcdatamodeld */; };
 		A803B1061E746E0700F6B0D4 /* WAAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803B1041E746E0700F6B0D4 /* WAAppController.swift */; };
 		A803B10B1E746F0000F6B0D4 /* WABaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803B10A1E746F0000F6B0D4 /* WABaseNavigationController.swift */; };
 		A803B10D1E746F1200F6B0D4 /* WABaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803B10C1E746F1200F6B0D4 /* WABaseViewController.swift */; };
 		A803B10F1E746F6600F6B0D4 /* Initialization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A803B10E1E746F6600F6B0D4 /* Initialization.storyboard */; };
-		A803B1121E7471B000F6B0D4 /* ChameleonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A803B1101E7471B000F6B0D4 /* ChameleonFramework.framework */; };
-		A803B1131E7471B000F6B0D4 /* SwiftyUserDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A803B1111E7471B000F6B0D4 /* SwiftyUserDefaults.framework */; };
-		A803B1161E7472BE00F6B0D4 /* WAInitializationNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803B1151E7472BE00F6B0D4 /* WAInitializationNavigationController.swift */; };
-		A803B11A1E7473FF00F6B0D4 /* WAManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803B1191E7473FF00F6B0D4 /* WAManagedObjectContext.swift */; };
+		A8396A761E7AE74500E1B4F4 /* WABaseManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8396A751E7AE74500E1B4F4 /* WABaseManagedObjectContext.swift */; };
+		A8396A7F1E7B0BC700E1B4F4 /* WATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8396A7E1E7B0BC700E1B4F4 /* WATests.swift */; };
+		A84A2F6C1E79437300DFBD00 /* Alarms.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84A2F6B1E79437300DFBD00 /* Alarms.storyboard */; };
+		A84A2F6E1E7943A000DFBD00 /* WABaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A2F6D1E7943A000DFBD00 /* WABaseTableViewController.swift */; };
+		A84A2F731E79442500DFBD00 /* WAAlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A2F721E79442500DFBD00 /* WAAlarmTableViewCell.swift */; };
+		A84A2F761E79451800DFBD00 /* WAAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A2F751E79451800DFBD00 /* WAAlarm.swift */; };
+		A84A2F791E7945BB00DFBD00 /* WABaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A2F781E7945BB00DFBD00 /* WABaseTableViewCell.swift */; };
+		A84A2F7C1E7951C300DFBD00 /* Foundation+Wake&Act.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A2F7B1E7951C300DFBD00 /* Foundation+Wake&Act.swift */; };
+		A85A6AF01E8BC2EC00D75265 /* WAInitializationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85A6AEF1E8BC2EC00D75265 /* WAInitializationViewController.swift */; };
+		A85A6AF21E8BC39E00D75265 /* UIKit+Wake&Act.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85A6AF11E8BC39E00D75265 /* UIKit+Wake&Act.swift */; };
+		A85A6AF41E8BC40A00D75265 /* Swift+Wake&Act.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85A6AF31E8BC40A00D75265 /* Swift+Wake&Act.swift */; };
+		A85A6AF61E8BC55400D75265 /* Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85A6AF51E8BC55400D75265 /* Segue.swift */; };
+		A85A6B271E8C207600D75265 /* clock.gif in Resources */ = {isa = PBXBuildFile; fileRef = A85A6B261E8C207600D75265 /* clock.gif */; };
+		A85A6B291E8C25DC00D75265 /* WAAlarmsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85A6B281E8C25DC00D75265 /* WAAlarmsTableViewController.swift */; };
+		A891DD711E7A8FAF00A55FA1 /* WAAlarmDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A891DD701E7A8FAF00A55FA1 /* WAAlarmDay.swift */; };
+		A891DD741E7A93EB00A55FA1 /* WABaseManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A891DD731E7A93EB00A55FA1 /* WABaseManagedObject.swift */; };
+		A891DD791E7A965400A55FA1 /* WABaseManagedObjectFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A891DD781E7A965400A55FA1 /* WABaseManagedObjectFetcher.swift */; };
+		A8DB92141E8BB4310087671C /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = A8DB92131E8BB4310087671C /* .swiftlint.yml */; };
+		A8F10AAD1E8C289300839A60 /* WAAlarmsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F10AAC1E8C289200839A60 /* WAAlarmsNavigationController.swift */; };
 		C4C983F4A9ECE45DD03887F0 /* Pods_Wake___Act.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F2B75E4E8A124DE3B3A7CB4 /* Pods_Wake___Act.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A8396A811E7B0BC700E1B4F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A803B0D41E746DAA00F6B0D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A803B0DB1E746DAA00F6B0D4;
+			remoteInfo = "Wake & Act";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		014F2D76451FDA02A1FB4FC2 /* Pods-Wake & Act Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wake & Act Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wake & Act Tests/Pods-Wake & Act Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4E19177FE4C78389FD09F66A /* Pods-Wake & Act Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wake & Act Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wake & Act Tests/Pods-Wake & Act Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6FBA4EB5280F5336DC4A8C51 /* Pods-Wake & Act.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wake & Act.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wake & Act/Pods-Wake & Act.debug.xcconfig"; sourceTree = "<group>"; };
 		7F2B75E4E8A124DE3B3A7CB4 /* Pods_Wake___Act.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Wake___Act.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A803B0DC1E746DAB00F6B0D4 /* Wake & Act.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wake & Act.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A803B0F51E746E0200F6B0D4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A803B0F71E746E0200F6B0D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A803B0F91E746E0200F6B0D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A803B0FD1E746E0200F6B0D4 /* Wake___Act.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Wake___Act.xcdatamodel"; sourceTree = "<group>"; };
 		A803B1041E746E0700F6B0D4 /* WAAppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAAppController.swift; sourceTree = "<group>"; };
 		A803B10A1E746F0000F6B0D4 /* WABaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WABaseNavigationController.swift; sourceTree = "<group>"; };
@@ -35,9 +61,48 @@
 		A803B10E1E746F6600F6B0D4 /* Initialization.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Initialization.storyboard; sourceTree = "<group>"; };
 		A803B1101E7471B000F6B0D4 /* ChameleonFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChameleonFramework.framework; path = "../../../Library/Developer/Xcode/DerivedData/Wake_&_Act-flfvxokqutqnfwboxyetzaxnuigs/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework"; sourceTree = "<group>"; };
 		A803B1111E7471B000F6B0D4 /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyUserDefaults.framework; path = "../../../Library/Developer/Xcode/DerivedData/Wake_&_Act-flfvxokqutqnfwboxyetzaxnuigs/Build/Products/Debug-iphonesimulator/SwiftyUserDefaults/SwiftyUserDefaults.framework"; sourceTree = "<group>"; };
-		A803B1151E7472BE00F6B0D4 /* WAInitializationNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAInitializationNavigationController.swift; sourceTree = "<group>"; };
-		A803B1191E7473FF00F6B0D4 /* WAManagedObjectContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAManagedObjectContext.swift; sourceTree = "<group>"; };
+		A8396A751E7AE74500E1B4F4 /* WABaseManagedObjectContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WABaseManagedObjectContext.swift; sourceTree = "<group>"; };
+		A8396A7C1E7B0BC600E1B4F4 /* Wake & Act Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wake & Act Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8396A7E1E7B0BC700E1B4F4 /* WATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WATests.swift; sourceTree = "<group>"; };
+		A8396A801E7B0BC700E1B4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A84A2F6B1E79437300DFBD00 /* Alarms.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Alarms.storyboard; sourceTree = "<group>"; };
+		A84A2F6D1E7943A000DFBD00 /* WABaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WABaseTableViewController.swift; sourceTree = "<group>"; };
+		A84A2F721E79442500DFBD00 /* WAAlarmTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAAlarmTableViewCell.swift; sourceTree = "<group>"; };
+		A84A2F751E79451800DFBD00 /* WAAlarm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAAlarm.swift; sourceTree = "<group>"; };
+		A84A2F781E7945BB00DFBD00 /* WABaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WABaseTableViewCell.swift; sourceTree = "<group>"; };
+		A84A2F7B1E7951C300DFBD00 /* Foundation+Wake&Act.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Wake&Act.swift"; sourceTree = "<group>"; };
+		A85A6AEF1E8BC2EC00D75265 /* WAInitializationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAInitializationViewController.swift; sourceTree = "<group>"; };
+		A85A6AF11E8BC39E00D75265 /* UIKit+Wake&Act.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Wake&Act.swift"; sourceTree = "<group>"; };
+		A85A6AF31E8BC40A00D75265 /* Swift+Wake&Act.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Wake&Act.swift"; sourceTree = "<group>"; };
+		A85A6AF51E8BC55400D75265 /* Segue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Segue.swift; sourceTree = "<group>"; };
+		A85A6AFB1E8BCEE300D75265 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/Wake_&_Act-flfvxokqutqnfwboxyetzaxnuigs/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		A85A6AFC1E8BCEE300D75265 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSnapshotTestCase.framework; path = "Pods/../build/Debug-iphoneos/FBSnapshotTestCase/FBSnapshotTestCase.framework"; sourceTree = "<group>"; };
+		A85A6AFD1E8BCEE300D75265 /* Forgeries.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Forgeries.framework; path = "Pods/../build/Debug-iphoneos/Forgeries/Forgeries.framework"; sourceTree = "<group>"; };
+		A85A6AFE1E8BCEE300D75265 /* Macaw.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Macaw.framework; path = "../../../Library/Developer/Xcode/DerivedData/Wake_&_Act-flfvxokqutqnfwboxyetzaxnuigs/Build/Products/Debug-iphonesimulator/Macaw/Macaw.framework"; sourceTree = "<group>"; };
+		A85A6AFF1E8BCEE300D75265 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = "../../../Library/Developer/Xcode/DerivedData/Wake_&_Act-flfvxokqutqnfwboxyetzaxnuigs/Build/Products/Debug-iphonesimulator/Moya/Moya.framework"; sourceTree = "<group>"; };
+		A85A6B001E8BCEE300D75265 /* Nimble_Snapshots.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble_Snapshots.framework; path = "Pods/../build/Debug-iphoneos/Nimble-Snapshots/Nimble_Snapshots.framework"; sourceTree = "<group>"; };
+		A85A6B011E8BCEE300D75265 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Pods/../build/Debug-iphoneos/Nimble/Nimble.framework"; sourceTree = "<group>"; };
+		A85A6B021E8BCEE300D75265 /* NSObject_Rx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSObject_Rx.framework; path = "../../../Library/Developer/Xcode/DerivedData/Wake_&_Act-flfvxokqutqnfwboxyetzaxnuigs/Build/Products/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework"; sourceTree = "<group>"; };
+		A85A6B031E8BCEE300D75265 /* Pods_Wake___Act_Tests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Pods_Wake___Act_Tests.framework"; path = "Pods/../build/Debug-iphoneos/Pods_Wake___Act_Tests.framework"; sourceTree = "<group>"; };
+		A85A6B041E8BCEE300D75265 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Pods/../build/Debug-iphoneos/Quick/Quick.framework"; sourceTree = "<group>"; };
+		A85A6B051E8BCEE300D75265 /* ReachabilitySwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReachabilitySwift.framework; path = "../../../Library/Developer/Xcode/DerivedData/Wake_&_Act-flfvxokqutqnfwboxyetzaxnuigs/Build/Products/Debug-iphonesimulator/ReachabilitySwift/ReachabilitySwift.framework"; sourceTree = "<group>"; };
+		A85A6B061E8BCEE300D75265 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = "../../../Library/Developer/Xcode/DerivedData/Wake_&_Act-flfvxokqutqnfwboxyetzaxnuigs/Build/Products/Debug-iphonesimulator/Result/Result.framework"; sourceTree = "<group>"; };
+		A85A6B071E8BCEE300D75265 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = "Pods/../build/Debug-iphoneos/RxBlocking/RxBlocking.framework"; sourceTree = "<group>"; };
+		A85A6B081E8BCEE300D75265 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = "../../../Library/Developer/Xcode/DerivedData/Wake_&_Act-flfvxokqutqnfwboxyetzaxnuigs/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework"; sourceTree = "<group>"; };
+		A85A6B091E8BCEE300D75265 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "../../../Library/Developer/Xcode/DerivedData/Wake_&_Act-flfvxokqutqnfwboxyetzaxnuigs/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework"; sourceTree = "<group>"; };
+		A85A6B0A1E8BCEE300D75265 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = "Pods/../build/Debug-iphoneos/RxTest/RxTest.framework"; sourceTree = "<group>"; };
+		A85A6B0B1E8BCEE300D75265 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "../../../Library/Developer/Xcode/DerivedData/Wake_&_Act-flfvxokqutqnfwboxyetzaxnuigs/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework"; sourceTree = "<group>"; };
+		A85A6B0C1E8BCEE300D75265 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/Wake_&_Act-flfvxokqutqnfwboxyetzaxnuigs/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		A85A6B0D1E8BCEE300D75265 /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = "../../../Library/Developer/Xcode/DerivedData/Wake_&_Act-flfvxokqutqnfwboxyetzaxnuigs/Build/Products/Debug-iphonesimulator/SWXMLHash/SWXMLHash.framework"; sourceTree = "<group>"; };
+		A85A6B261E8C207600D75265 /* clock.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = clock.gif; sourceTree = "<group>"; };
+		A85A6B281E8C25DC00D75265 /* WAAlarmsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAAlarmsTableViewController.swift; sourceTree = "<group>"; };
+		A891DD701E7A8FAF00A55FA1 /* WAAlarmDay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAAlarmDay.swift; sourceTree = "<group>"; };
+		A891DD731E7A93EB00A55FA1 /* WABaseManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WABaseManagedObject.swift; sourceTree = "<group>"; };
+		A891DD781E7A965400A55FA1 /* WABaseManagedObjectFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WABaseManagedObjectFetcher.swift; sourceTree = "<group>"; };
+		A8DB92131E8BB4310087671C /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
+		A8F10AAC1E8C289200839A60 /* WAAlarmsNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAAlarmsNavigationController.swift; sourceTree = "<group>"; };
 		B51BC23A6C7AC08259211B5C /* Pods-Wake & Act.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wake & Act.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wake & Act/Pods-Wake & Act.release.xcconfig"; sourceTree = "<group>"; };
+		C225589A8343610B1152BC2B /* Pods_Wake___Act_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Wake___Act_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,9 +110,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A803B1121E7471B000F6B0D4 /* ChameleonFramework.framework in Frameworks */,
-				A803B1131E7471B000F6B0D4 /* SwiftyUserDefaults.framework in Frameworks */,
 				C4C983F4A9ECE45DD03887F0 /* Pods_Wake___Act.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8396A791E7B0BC600E1B4F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759808983147752936D46370 /* Pods_Wake___Act_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,9 +128,29 @@
 		7F6C607A97DF8C79CF9856C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A85A6AFB1E8BCEE300D75265 /* Alamofire.framework */,
+				A85A6AFC1E8BCEE300D75265 /* FBSnapshotTestCase.framework */,
+				A85A6AFD1E8BCEE300D75265 /* Forgeries.framework */,
+				A85A6AFE1E8BCEE300D75265 /* Macaw.framework */,
+				A85A6AFF1E8BCEE300D75265 /* Moya.framework */,
+				A85A6B001E8BCEE300D75265 /* Nimble_Snapshots.framework */,
+				A85A6B011E8BCEE300D75265 /* Nimble.framework */,
+				A85A6B021E8BCEE300D75265 /* NSObject_Rx.framework */,
+				A85A6B031E8BCEE300D75265 /* Pods_Wake___Act_Tests.framework */,
+				A85A6B041E8BCEE300D75265 /* Quick.framework */,
+				A85A6B051E8BCEE300D75265 /* ReachabilitySwift.framework */,
+				A85A6B061E8BCEE300D75265 /* Result.framework */,
+				A85A6B071E8BCEE300D75265 /* RxBlocking.framework */,
+				A85A6B081E8BCEE300D75265 /* RxCocoa.framework */,
+				A85A6B091E8BCEE300D75265 /* RxSwift.framework */,
+				A85A6B0A1E8BCEE300D75265 /* RxTest.framework */,
+				A85A6B0B1E8BCEE300D75265 /* SDWebImage.framework */,
+				A85A6B0C1E8BCEE300D75265 /* SwiftyJSON.framework */,
+				A85A6B0D1E8BCEE300D75265 /* SWXMLHash.framework */,
 				A803B1101E7471B000F6B0D4 /* ChameleonFramework.framework */,
 				A803B1111E7471B000F6B0D4 /* SwiftyUserDefaults.framework */,
 				7F2B75E4E8A124DE3B3A7CB4 /* Pods_Wake___Act.framework */,
+				C225589A8343610B1152BC2B /* Pods_Wake___Act_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -69,6 +160,8 @@
 			children = (
 				6FBA4EB5280F5336DC4A8C51 /* Pods-Wake & Act.debug.xcconfig */,
 				B51BC23A6C7AC08259211B5C /* Pods-Wake & Act.release.xcconfig */,
+				4E19177FE4C78389FD09F66A /* Pods-Wake & Act Tests.debug.xcconfig */,
+				014F2D76451FDA02A1FB4FC2 /* Pods-Wake & Act Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -76,7 +169,9 @@
 		A803B0D31E746DAA00F6B0D4 = {
 			isa = PBXGroup;
 			children = (
+				A8DB92131E8BB4310087671C /* .swiftlint.yml */,
 				A803B0DE1E746DAB00F6B0D4 /* Wake & Act */,
+				A8396A7D1E7B0BC700E1B4F4 /* Wake & Act Tests */,
 				A803B0DD1E746DAB00F6B0D4 /* Products */,
 				8C3844A09A251BC35F5BB454 /* Pods */,
 				7F6C607A97DF8C79CF9856C0 /* Frameworks */,
@@ -87,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				A803B0DC1E746DAB00F6B0D4 /* Wake & Act.app */,
+				A8396A7C1E7B0BC600E1B4F4 /* Wake & Act Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +211,7 @@
 			children = (
 				A803B1171E74732800F6B0D4 /* Storyboard */,
 				A803B0F71E746E0200F6B0D4 /* Assets.xcassets */,
+				A85A6B261E8C207600D75265 /* clock.gif */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -122,9 +219,12 @@
 		A803B1031E746E0700F6B0D4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				A803B1181E74738E00F6B0D4 /* Core Data */,
-				A803B1141E74729800F6B0D4 /* Initialization */,
+				A803B1091E746ED700F6B0D4 /* Application */,
+				A84A2F6F1E7943C400DFBD00 /* Alarms */,
 				A803B1081E746ED100F6B0D4 /* Base */,
+				A803B1181E74738E00F6B0D4 /* Core Data */,
+				A85A6AEE1E8BC2CE00D75265 /* Initialization */,
+				A84A2F7A1E7951A600DFBD00 /* Util */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -132,9 +232,8 @@
 		A803B1081E746ED100F6B0D4 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				A803B1091E746ED700F6B0D4 /* Application */,
-				A803B10A1E746F0000F6B0D4 /* WABaseNavigationController.swift */,
-				A803B10C1E746F1200F6B0D4 /* WABaseViewController.swift */,
+				A891DD721E7A93CC00A55FA1 /* Core Data */,
+				A891DD751E7A94B000A55FA1 /* View Controllers */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -147,19 +246,11 @@
 			name = Application;
 			sourceTree = "<group>";
 		};
-		A803B1141E74729800F6B0D4 /* Initialization */ = {
-			isa = PBXGroup;
-			children = (
-				A803B1151E7472BE00F6B0D4 /* WAInitializationNavigationController.swift */,
-			);
-			name = Initialization;
-			sourceTree = "<group>";
-		};
 		A803B1171E74732800F6B0D4 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				A803B0F81E746E0200F6B0D4 /* LaunchScreen.storyboard */,
 				A803B10E1E746F6600F6B0D4 /* Initialization.storyboard */,
+				A84A2F6B1E79437300DFBD00 /* Alarms.storyboard */,
 			);
 			name = Storyboard;
 			sourceTree = "<group>";
@@ -167,9 +258,85 @@
 		A803B1181E74738E00F6B0D4 /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
-				A803B1191E7473FF00F6B0D4 /* WAManagedObjectContext.swift */,
+				A84A2F741E79450800DFBD00 /* Alarm Model */,
 			);
 			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		A8396A7D1E7B0BC700E1B4F4 /* Wake & Act Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A8396A7E1E7B0BC700E1B4F4 /* WATests.swift */,
+				A8396A801E7B0BC700E1B4F4 /* Info.plist */,
+			);
+			path = "Wake & Act Tests";
+			sourceTree = "<group>";
+		};
+		A84A2F6F1E7943C400DFBD00 /* Alarms */ = {
+			isa = PBXGroup;
+			children = (
+				A84A2F721E79442500DFBD00 /* WAAlarmTableViewCell.swift */,
+				A85A6B281E8C25DC00D75265 /* WAAlarmsTableViewController.swift */,
+				A8F10AAC1E8C289200839A60 /* WAAlarmsNavigationController.swift */,
+			);
+			name = Alarms;
+			sourceTree = "<group>";
+		};
+		A84A2F741E79450800DFBD00 /* Alarm Model */ = {
+			isa = PBXGroup;
+			children = (
+				A84A2F751E79451800DFBD00 /* WAAlarm.swift */,
+				A891DD701E7A8FAF00A55FA1 /* WAAlarmDay.swift */,
+			);
+			name = "Alarm Model";
+			sourceTree = "<group>";
+		};
+		A84A2F771E7945A200DFBD00 /* Table View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A84A2F6D1E7943A000DFBD00 /* WABaseTableViewController.swift */,
+				A84A2F781E7945BB00DFBD00 /* WABaseTableViewCell.swift */,
+			);
+			name = "Table View Controller";
+			sourceTree = "<group>";
+		};
+		A84A2F7A1E7951A600DFBD00 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A84A2F7B1E7951C300DFBD00 /* Foundation+Wake&Act.swift */,
+				A85A6AF11E8BC39E00D75265 /* UIKit+Wake&Act.swift */,
+				A85A6AF31E8BC40A00D75265 /* Swift+Wake&Act.swift */,
+				A85A6AF51E8BC55400D75265 /* Segue.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		A85A6AEE1E8BC2CE00D75265 /* Initialization */ = {
+			isa = PBXGroup;
+			children = (
+				A85A6AEF1E8BC2EC00D75265 /* WAInitializationViewController.swift */,
+			);
+			name = Initialization;
+			sourceTree = "<group>";
+		};
+		A891DD721E7A93CC00A55FA1 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				A891DD731E7A93EB00A55FA1 /* WABaseManagedObject.swift */,
+				A891DD781E7A965400A55FA1 /* WABaseManagedObjectFetcher.swift */,
+				A8396A751E7AE74500E1B4F4 /* WABaseManagedObjectContext.swift */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		A891DD751E7A94B000A55FA1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A84A2F771E7945A200DFBD00 /* Table View Controller */,
+				A803B10A1E746F0000F6B0D4 /* WABaseNavigationController.swift */,
+				A803B10C1E746F1200F6B0D4 /* WABaseViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +352,7 @@
 				A803B0DA1E746DAA00F6B0D4 /* Resources */,
 				C85D4B1FFAA7124373F0240D /* [CP] Embed Pods Frameworks */,
 				589F1FD801F48CB4DBD97DD4 /* [CP] Copy Pods Resources */,
+				A8DB92121E8BB3860087671C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -194,6 +362,27 @@
 			productName = "Wake & Act";
 			productReference = A803B0DC1E746DAB00F6B0D4 /* Wake & Act.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A8396A7B1E7B0BC600E1B4F4 /* Wake & Act Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8396A831E7B0BC700E1B4F4 /* Build configuration list for PBXNativeTarget "Wake & Act Tests" */;
+			buildPhases = (
+				D95002BBD214A9C229A5CBD9 /* [CP] Check Pods Manifest.lock */,
+				A8396A781E7B0BC600E1B4F4 /* Sources */,
+				A8396A791E7B0BC600E1B4F4 /* Frameworks */,
+				A8396A7A1E7B0BC600E1B4F4 /* Resources */,
+				207A2749AF2AE1A25822B0BE /* [CP] Embed Pods Frameworks */,
+				717639F627F8A9277E25CA0A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8396A821E7B0BC700E1B4F4 /* PBXTargetDependency */,
+			);
+			name = "Wake & Act Tests";
+			productName = "Wake & Act Tests";
+			productReference = A8396A7C1E7B0BC600E1B4F4 /* Wake & Act Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -208,7 +397,14 @@
 					A803B0DB1E746DAA00F6B0D4 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 76LJ97E96C;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
+					};
+					A8396A7B1E7B0BC600E1B4F4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 76LJ97E96C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A803B0DB1E746DAA00F6B0D4;
 					};
 				};
 			};
@@ -226,6 +422,7 @@
 			projectRoot = "";
 			targets = (
 				A803B0DB1E746DAA00F6B0D4 /* Wake & Act */,
+				A8396A7B1E7B0BC600E1B4F4 /* Wake & Act Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,15 +432,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8DB92141E8BB4310087671C /* .swiftlint.yml in Resources */,
+				A84A2F6C1E79437300DFBD00 /* Alarms.storyboard in Resources */,
 				A803B10F1E746F6600F6B0D4 /* Initialization.storyboard in Resources */,
-				A803B1001E746E0200F6B0D4 /* LaunchScreen.storyboard in Resources */,
+				A85A6B271E8C207600D75265 /* clock.gif in Resources */,
 				A803B0FF1E746E0200F6B0D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8396A7A1E7B0BC600E1B4F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		207A2749AF2AE1A25822B0BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wake & Act Tests/Pods-Wake & Act Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		563AF15F627E17EA364CEBD6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -274,6 +495,34 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wake & Act/Pods-Wake & Act-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		717639F627F8A9277E25CA0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wake & Act Tests/Pods-Wake & Act Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8DB92121E8BB3860087671C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
 		C85D4B1FFAA7124373F0240D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -289,6 +538,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wake & Act/Pods-Wake & Act-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D95002BBD214A9C229A5CBD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -296,27 +560,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8F10AAD1E8C289300839A60 /* WAAlarmsNavigationController.swift in Sources */,
 				A803B1061E746E0700F6B0D4 /* WAAppController.swift in Sources */,
+				A85A6AF01E8BC2EC00D75265 /* WAInitializationViewController.swift in Sources */,
+				A84A2F791E7945BB00DFBD00 /* WABaseTableViewCell.swift in Sources */,
+				A84A2F731E79442500DFBD00 /* WAAlarmTableViewCell.swift in Sources */,
+				A891DD711E7A8FAF00A55FA1 /* WAAlarmDay.swift in Sources */,
+				A891DD741E7A93EB00A55FA1 /* WABaseManagedObject.swift in Sources */,
+				A85A6AF61E8BC55400D75265 /* Segue.swift in Sources */,
 				A803B1021E746E0200F6B0D4 /* Wake___Act.xcdatamodeld in Sources */,
-				A803B11A1E7473FF00F6B0D4 /* WAManagedObjectContext.swift in Sources */,
 				A803B10B1E746F0000F6B0D4 /* WABaseNavigationController.swift in Sources */,
 				A803B10D1E746F1200F6B0D4 /* WABaseViewController.swift in Sources */,
-				A803B1161E7472BE00F6B0D4 /* WAInitializationNavigationController.swift in Sources */,
+				A84A2F7C1E7951C300DFBD00 /* Foundation+Wake&Act.swift in Sources */,
+				A84A2F761E79451800DFBD00 /* WAAlarm.swift in Sources */,
+				A891DD791E7A965400A55FA1 /* WABaseManagedObjectFetcher.swift in Sources */,
+				A85A6AF41E8BC40A00D75265 /* Swift+Wake&Act.swift in Sources */,
+				A8396A761E7AE74500E1B4F4 /* WABaseManagedObjectContext.swift in Sources */,
+				A84A2F6E1E7943A000DFBD00 /* WABaseTableViewController.swift in Sources */,
+				A85A6AF21E8BC39E00D75265 /* UIKit+Wake&Act.swift in Sources */,
+				A85A6B291E8C25DC00D75265 /* WAAlarmsTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8396A781E7B0BC600E1B4F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8396A7F1E7B0BC700E1B4F4 /* WATests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		A803B0F81E746E0200F6B0D4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A803B0F91E746E0200F6B0D4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		A8396A821E7B0BC700E1B4F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A803B0DB1E746DAA00F6B0D4 /* Wake & Act */;
+			targetProxy = A8396A811E7B0BC700E1B4F4 /* PBXContainerItemProxy */;
 		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A803B0EF1E746DAB00F6B0D4 /* Debug */ = {
@@ -359,12 +641,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Debug;
 		};
@@ -396,13 +678,14 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -415,12 +698,26 @@
 			baseConfigurationReference = 6FBA4EB5280F5336DC4A8C51 /* Pods-Wake & Act.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 76LJ97E96C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/FBSnapshotTestCase",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Forgeries",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Nimble-Snapshots",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Nimble",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Quick",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RxBlocking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RxTest",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Wake & Act/Resources/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baidikoff.wakenact;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -430,13 +727,57 @@
 			baseConfigurationReference = B51BC23A6C7AC08259211B5C /* Pods-Wake & Act.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 76LJ97E96C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/FBSnapshotTestCase",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Forgeries",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Nimble-Snapshots",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Nimble",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Quick",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RxBlocking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RxTest",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Wake & Act/Resources/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baidikoff.wakenact;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A8396A841E7B0BC700E1B4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E19177FE4C78389FD09F66A /* Pods-Wake & Act Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 76LJ97E96C;
+				INFOPLIST_FILE = "Wake & Act Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baidikoff.Wake---Act-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wake & Act.app/Wake & Act";
+			};
+			name = Debug;
+		};
+		A8396A851E7B0BC700E1B4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 014F2D76451FDA02A1FB4FC2 /* Pods-Wake & Act Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 76LJ97E96C;
+				INFOPLIST_FILE = "Wake & Act Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baidikoff.Wake---Act-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wake & Act.app/Wake & Act";
 			};
 			name = Release;
 		};
@@ -457,6 +798,15 @@
 			buildConfigurations = (
 				A803B0F21E746DAB00F6B0D4 /* Debug */,
 				A803B0F31E746DAB00F6B0D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8396A831E7B0BC700E1B4F4 /* Build configuration list for PBXNativeTarget "Wake & Act Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8396A841E7B0BC700E1B4F4 /* Debug */,
+				A8396A851E7B0BC700E1B4F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
