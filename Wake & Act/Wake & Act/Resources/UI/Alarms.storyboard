@@ -20,10 +20,84 @@
                         <color key="barTintColor" red="0.8901960784313725" green="0.41960784313725491" blue="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="nkc-O2-vat" kind="relationship" relationship="rootViewController" id="zmy-9n-giX"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gUW-jh-2QN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="84" y="133.5832083958021"/>
         </scene>
+        <!--Alarms-->
+        <scene sceneID="7px-i8-VcA">
+            <objects>
+                <tableViewController title="Alarms" id="nkc-O2-vat" customClass="WAAlarmsTableViewController" customModule="Wake___Act" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="AEp-sd-adC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="WAAlarmTableViewCell" id="Hx8-Jc-HLS">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Hx8-Jc-HLS" id="PiM-oU-75R">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="nkc-O2-vat" id="hrF-vR-Exg"/>
+                            <outlet property="delegate" destination="nkc-O2-vat" id="tKL-dU-ppv"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="5D2-cY-xB3">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="tWk-Ma-01M">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="onAddAction:" destination="nkc-O2-vat" id="a4l-A6-1w6"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="C8q-hL-82a" kind="show" identifier="editAlarmSegue" id="WOl-1F-PoN"/>
+                        <segue destination="C8q-hL-82a" kind="show" identifier="addAlarmSegue" id="bvd-zV-dtY"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5KR-ep-ulM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="820" y="134"/>
+        </scene>
+        <!--Edit Alarm Table View Controller-->
+        <scene sceneID="GF3-cW-D4V">
+            <objects>
+                <tableViewController id="C8q-hL-82a" customClass="WAEditAlarmTableViewController" customModule="Wake___Act" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="w88-bM-mru">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="V8C-3j-Qz6">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="V8C-3j-Qz6" id="sml-Uw-aer">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="C8q-hL-82a" id="0X6-B8-oaM"/>
+                            <outlet property="delegate" destination="C8q-hL-82a" id="nsH-x3-ugi"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gTP-cb-fcn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1665" y="287"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="bvd-zV-dtY"/>
+    </inferredMetricsTieBreakers>
 </document>

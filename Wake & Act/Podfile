@@ -3,11 +3,14 @@ use_frameworks!
 
 target 'Wake & Act' do
 
-  pod 'ChameleonFramework', :git => 'https://github.com/ViccAlexander/Chameleon.git'
+	# Persistance
+	pod 'AlecrimCoreData', '~> 5.0'
   pod 'SwiftyUserDefaults'
 	
 	# UI
+	pod 'ChameleonFramework', :git => 'https://github.com/ViccAlexander/Chameleon.git'
 	pod 'Macaw'
+	pod 'DZNEmptyDataSet'
 	
 	# Reactive programming
 	pod 'RxSwift', '~> 3.0'

@@ -1,8 +1,10 @@
 PODS:
   - Alamofire (4.4.0)
+  - AlecrimCoreData (5.0)
   - ChameleonFramework (2.1.0):
     - ChameleonFramework/Default (= 2.1.0)
   - ChameleonFramework/Default (2.1.0)
+  - DZNEmptyDataSet (1.8.1)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -47,7 +49,9 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - AlecrimCoreData (~> 5.0)
   - ChameleonFramework (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - DZNEmptyDataSet
   - Forgeries
   - Macaw
   - Moya/RxSwift
@@ -75,7 +79,9 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  AlecrimCoreData: f1251de3630f4d4d3a212e405298084c229cef29
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
   Forgeries: 64ced144ea8341d89a7eec9d1d7986f0f1366250
   Macaw: 3b0c327e285fb57c7f6fbfe101bfc486f2415de3
@@ -95,6 +101,6 @@ SPEC CHECKSUMS:
   SwiftyUserDefaults: 0f1d45fc3aafb9064dac661e367f8f83fe21a4b4
   SWXMLHash: 29d20b84692fc319ea8ed933058fe7d8d005139b
 
-PODFILE CHECKSUM: 0e80d73f21d6f4c9504122229358e10341caac99
+PODFILE CHECKSUM: c440c967cb06f47927f304b148e38e789c406b53
 
 COCOAPODS: 1.2.0

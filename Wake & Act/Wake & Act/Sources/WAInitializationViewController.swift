@@ -10,6 +10,6 @@ class WAInitializationViewController: WABaseViewController {
 		
 		view.backgroundColor = .mainRed
 		clockGIF.image = UIImage.sd_animatedGIFNamed("clock")
-		self.perform(#selector(performSegue(withIdentifier:)), with: Segue.toAlarmsSegue.rawValue, afterDelay: 2.58)
+		self.perform(#selector(performSegue(withIdentifier:)), with: Segue.toAlarmsSegue.rawValue, afterDelay: clockGIF.image?.duration ?? 2.580)
 	}
 }

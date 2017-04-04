@@ -14,11 +14,10 @@
 		A803B10B1E746F0000F6B0D4 /* WABaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803B10A1E746F0000F6B0D4 /* WABaseNavigationController.swift */; };
 		A803B10D1E746F1200F6B0D4 /* WABaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803B10C1E746F1200F6B0D4 /* WABaseViewController.swift */; };
 		A803B10F1E746F6600F6B0D4 /* Initialization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A803B10E1E746F6600F6B0D4 /* Initialization.storyboard */; };
-		A8396A761E7AE74500E1B4F4 /* WABaseManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8396A751E7AE74500E1B4F4 /* WABaseManagedObjectContext.swift */; };
+		A830421A1E8EC02000F777A6 /* WAEditAlarmTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83042191E8EC02000F777A6 /* WAEditAlarmTableViewController.swift */; };
 		A8396A7F1E7B0BC700E1B4F4 /* WATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8396A7E1E7B0BC700E1B4F4 /* WATests.swift */; };
 		A84A2F6C1E79437300DFBD00 /* Alarms.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84A2F6B1E79437300DFBD00 /* Alarms.storyboard */; };
 		A84A2F6E1E7943A000DFBD00 /* WABaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A2F6D1E7943A000DFBD00 /* WABaseTableViewController.swift */; };
-		A84A2F731E79442500DFBD00 /* WAAlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A2F721E79442500DFBD00 /* WAAlarmTableViewCell.swift */; };
 		A84A2F761E79451800DFBD00 /* WAAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A2F751E79451800DFBD00 /* WAAlarm.swift */; };
 		A84A2F791E7945BB00DFBD00 /* WABaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A2F781E7945BB00DFBD00 /* WABaseTableViewCell.swift */; };
 		A84A2F7C1E7951C300DFBD00 /* Foundation+Wake&Act.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A2F7B1E7951C300DFBD00 /* Foundation+Wake&Act.swift */; };
@@ -29,10 +28,11 @@
 		A85A6B271E8C207600D75265 /* clock.gif in Resources */ = {isa = PBXBuildFile; fileRef = A85A6B261E8C207600D75265 /* clock.gif */; };
 		A85A6B291E8C25DC00D75265 /* WAAlarmsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85A6B281E8C25DC00D75265 /* WAAlarmsTableViewController.swift */; };
 		A891DD711E7A8FAF00A55FA1 /* WAAlarmDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A891DD701E7A8FAF00A55FA1 /* WAAlarmDay.swift */; };
-		A891DD741E7A93EB00A55FA1 /* WABaseManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A891DD731E7A93EB00A55FA1 /* WABaseManagedObject.swift */; };
-		A891DD791E7A965400A55FA1 /* WABaseManagedObjectFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A891DD781E7A965400A55FA1 /* WABaseManagedObjectFetcher.swift */; };
+		A891DD741E7A93EB00A55FA1 /* WABaseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A891DD731E7A93EB00A55FA1 /* WABaseEntity.swift */; };
 		A8DB92141E8BB4310087671C /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = A8DB92131E8BB4310087671C /* .swiftlint.yml */; };
 		A8F10AAD1E8C289300839A60 /* WAAlarmsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F10AAC1E8C289200839A60 /* WAAlarmsNavigationController.swift */; };
+		A8F10AB21E8C2AB300839A60 /* WAAlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F10AB01E8C2AB300839A60 /* WAAlarmTableViewCell.swift */; };
+		A8F10AB31E8C2AB300839A60 /* WAAlarmTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F10AB11E8C2AB300839A60 /* WAAlarmTableViewCell.xib */; };
 		C4C983F4A9ECE45DD03887F0 /* Pods_Wake___Act.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F2B75E4E8A124DE3B3A7CB4 /* Pods_Wake___Act.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,13 +61,12 @@
 		A803B10E1E746F6600F6B0D4 /* Initialization.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Initialization.storyboard; sourceTree = "<group>"; };
 		A803B1101E7471B000F6B0D4 /* ChameleonFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChameleonFramework.framework; path = "../../../Library/Developer/Xcode/DerivedData/Wake_&_Act-flfvxokqutqnfwboxyetzaxnuigs/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework"; sourceTree = "<group>"; };
 		A803B1111E7471B000F6B0D4 /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyUserDefaults.framework; path = "../../../Library/Developer/Xcode/DerivedData/Wake_&_Act-flfvxokqutqnfwboxyetzaxnuigs/Build/Products/Debug-iphonesimulator/SwiftyUserDefaults/SwiftyUserDefaults.framework"; sourceTree = "<group>"; };
-		A8396A751E7AE74500E1B4F4 /* WABaseManagedObjectContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WABaseManagedObjectContext.swift; sourceTree = "<group>"; };
+		A83042191E8EC02000F777A6 /* WAEditAlarmTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAEditAlarmTableViewController.swift; sourceTree = "<group>"; };
 		A8396A7C1E7B0BC600E1B4F4 /* Wake & Act Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wake & Act Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8396A7E1E7B0BC700E1B4F4 /* WATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WATests.swift; sourceTree = "<group>"; };
 		A8396A801E7B0BC700E1B4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A84A2F6B1E79437300DFBD00 /* Alarms.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Alarms.storyboard; sourceTree = "<group>"; };
 		A84A2F6D1E7943A000DFBD00 /* WABaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WABaseTableViewController.swift; sourceTree = "<group>"; };
-		A84A2F721E79442500DFBD00 /* WAAlarmTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAAlarmTableViewCell.swift; sourceTree = "<group>"; };
 		A84A2F751E79451800DFBD00 /* WAAlarm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAAlarm.swift; sourceTree = "<group>"; };
 		A84A2F781E7945BB00DFBD00 /* WABaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WABaseTableViewCell.swift; sourceTree = "<group>"; };
 		A84A2F7B1E7951C300DFBD00 /* Foundation+Wake&Act.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Wake&Act.swift"; sourceTree = "<group>"; };
@@ -97,10 +96,11 @@
 		A85A6B261E8C207600D75265 /* clock.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = clock.gif; sourceTree = "<group>"; };
 		A85A6B281E8C25DC00D75265 /* WAAlarmsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAAlarmsTableViewController.swift; sourceTree = "<group>"; };
 		A891DD701E7A8FAF00A55FA1 /* WAAlarmDay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAAlarmDay.swift; sourceTree = "<group>"; };
-		A891DD731E7A93EB00A55FA1 /* WABaseManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WABaseManagedObject.swift; sourceTree = "<group>"; };
-		A891DD781E7A965400A55FA1 /* WABaseManagedObjectFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WABaseManagedObjectFetcher.swift; sourceTree = "<group>"; };
+		A891DD731E7A93EB00A55FA1 /* WABaseEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WABaseEntity.swift; sourceTree = "<group>"; };
 		A8DB92131E8BB4310087671C /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		A8F10AAC1E8C289200839A60 /* WAAlarmsNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAAlarmsNavigationController.swift; sourceTree = "<group>"; };
+		A8F10AB01E8C2AB300839A60 /* WAAlarmTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAAlarmTableViewCell.swift; sourceTree = "<group>"; };
+		A8F10AB11E8C2AB300839A60 /* WAAlarmTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WAAlarmTableViewCell.xib; sourceTree = "<group>"; };
 		B51BC23A6C7AC08259211B5C /* Pods-Wake & Act.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wake & Act.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wake & Act/Pods-Wake & Act.release.xcconfig"; sourceTree = "<group>"; };
 		C225589A8343610B1152BC2B /* Pods_Wake___Act_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Wake___Act_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -275,9 +275,10 @@
 		A84A2F6F1E7943C400DFBD00 /* Alarms */ = {
 			isa = PBXGroup;
 			children = (
-				A84A2F721E79442500DFBD00 /* WAAlarmTableViewCell.swift */,
+				A8F10AB41E8C2ABF00839A60 /* Alarm Table View Cell */,
 				A85A6B281E8C25DC00D75265 /* WAAlarmsTableViewController.swift */,
 				A8F10AAC1E8C289200839A60 /* WAAlarmsNavigationController.swift */,
+				A83042191E8EC02000F777A6 /* WAEditAlarmTableViewController.swift */,
 			);
 			name = Alarms;
 			sourceTree = "<group>";
@@ -322,9 +323,7 @@
 		A891DD721E7A93CC00A55FA1 /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
-				A891DD731E7A93EB00A55FA1 /* WABaseManagedObject.swift */,
-				A891DD781E7A965400A55FA1 /* WABaseManagedObjectFetcher.swift */,
-				A8396A751E7AE74500E1B4F4 /* WABaseManagedObjectContext.swift */,
+				A891DD731E7A93EB00A55FA1 /* WABaseEntity.swift */,
 			);
 			name = "Core Data";
 			sourceTree = "<group>";
@@ -337,6 +336,15 @@
 				A803B10C1E746F1200F6B0D4 /* WABaseViewController.swift */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A8F10AB41E8C2ABF00839A60 /* Alarm Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A8F10AB01E8C2AB300839A60 /* WAAlarmTableViewCell.swift */,
+				A8F10AB11E8C2AB300839A60 /* WAAlarmTableViewCell.xib */,
+			);
+			name = "Alarm Table View Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -435,6 +443,7 @@
 				A8DB92141E8BB4310087671C /* .swiftlint.yml in Resources */,
 				A84A2F6C1E79437300DFBD00 /* Alarms.storyboard in Resources */,
 				A803B10F1E746F6600F6B0D4 /* Initialization.storyboard in Resources */,
+				A8F10AB31E8C2AB300839A60 /* WAAlarmTableViewCell.xib in Resources */,
 				A85A6B271E8C207600D75265 /* clock.gif in Resources */,
 				A803B0FF1E746E0200F6B0D4 /* Assets.xcassets in Resources */,
 			);
@@ -564,19 +573,18 @@
 				A803B1061E746E0700F6B0D4 /* WAAppController.swift in Sources */,
 				A85A6AF01E8BC2EC00D75265 /* WAInitializationViewController.swift in Sources */,
 				A84A2F791E7945BB00DFBD00 /* WABaseTableViewCell.swift in Sources */,
-				A84A2F731E79442500DFBD00 /* WAAlarmTableViewCell.swift in Sources */,
 				A891DD711E7A8FAF00A55FA1 /* WAAlarmDay.swift in Sources */,
-				A891DD741E7A93EB00A55FA1 /* WABaseManagedObject.swift in Sources */,
+				A891DD741E7A93EB00A55FA1 /* WABaseEntity.swift in Sources */,
 				A85A6AF61E8BC55400D75265 /* Segue.swift in Sources */,
 				A803B1021E746E0200F6B0D4 /* Wake___Act.xcdatamodeld in Sources */,
 				A803B10B1E746F0000F6B0D4 /* WABaseNavigationController.swift in Sources */,
 				A803B10D1E746F1200F6B0D4 /* WABaseViewController.swift in Sources */,
 				A84A2F7C1E7951C300DFBD00 /* Foundation+Wake&Act.swift in Sources */,
 				A84A2F761E79451800DFBD00 /* WAAlarm.swift in Sources */,
-				A891DD791E7A965400A55FA1 /* WABaseManagedObjectFetcher.swift in Sources */,
 				A85A6AF41E8BC40A00D75265 /* Swift+Wake&Act.swift in Sources */,
-				A8396A761E7AE74500E1B4F4 /* WABaseManagedObjectContext.swift in Sources */,
+				A8F10AB21E8C2AB300839A60 /* WAAlarmTableViewCell.swift in Sources */,
 				A84A2F6E1E7943A000DFBD00 /* WABaseTableViewController.swift in Sources */,
+				A830421A1E8EC02000F777A6 /* WAEditAlarmTableViewController.swift in Sources */,
 				A85A6AF21E8BC39E00D75265 /* UIKit+Wake&Act.swift in Sources */,
 				A85A6B291E8C25DC00D75265 /* WAAlarmsTableViewController.swift in Sources */,
 			);

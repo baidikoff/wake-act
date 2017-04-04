@@ -1,5 +1,9 @@
 import UIKit
 import Foundation
+import CoreData
+import AlecrimCoreData
+
+let globalPersistentContainer = PersistentContainer(name: "Wake___Act")
 
 @UIApplicationMain
 class WAAppController: UIResponder, UIApplicationDelegate {
@@ -7,6 +11,5 @@ class WAAppController: UIResponder, UIApplicationDelegate {
 	
 	func applicationDidFinishLaunching(_ application: UIApplication) {
 		UINavigationBar.appearance().tintColor = .mainRed
-		
 	}
 }
